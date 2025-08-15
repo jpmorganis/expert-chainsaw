@@ -23,16 +23,12 @@ Think of your workflows as **dense forests of operations**. Expert Chainsaw cuts
 
 ## 🛠 INSTALLATION
 
-Run the following commands to install Expert Chainsaw:
+Run the following commands **separately**:
 
 ```bash
 git clone https://github.com/yourusername/expert-chainsaw.git
 cd expert-chainsaw
 pip install -r requirements.txt
-💻 EXAMPLE USAGE
-python
-Copy
-Edit
 from expert_chainsaw import Task, Chain
 
 # Define tasks
@@ -46,6 +42,7 @@ workflow = Chain([task1, task2, task3])
 # Run tasks
 workflow.run()
 🛠 ADVANCED FEATURES
+
 Custom Task Hooks – Run pre/post functions on tasks
 
 Retry Mechanism – Automatically retry failed tasks
@@ -55,6 +52,7 @@ Logging & Monitoring – Track each step’s performance
 Notifications – Send alerts on workflow completion or failure
 
 📦 CONTRIBUTING
+
 We welcome contributions! Improve workflows, add modules, or fix bugs.
 
 Fork the repo
@@ -64,9 +62,11 @@ Create a branch
 Submit a pull request
 
 📄 LICENSE
+
 This project is licensed under the MIT License – see LICENSE
 
 🎨 VISUAL WORKFLOW EXAMPLE
+
 Tasks flow like a pipeline
 
 Errors are logged and handled
@@ -76,6 +76,7 @@ Multiple tasks can run in parallel
 Integrates with APIs, scripts, and databases
 
 🚀 ROADMAP
+
 Add GUI for workflow design
 
 More pre-built modules
