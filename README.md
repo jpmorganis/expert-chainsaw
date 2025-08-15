@@ -33,7 +33,8 @@ Python 3.x, modular task system, logging & monitoring, parallel & sequential exe
 
 Clone the repository:
 
-git clone https://github.com/jpmorgansis/expert-chainsaw.git
+git clone https://github.com/mku772/expert-chainsaw.git
+
 cd expert-chainsaw
 
 
@@ -41,9 +42,7 @@ Install dependencies:
 
 pip install -r requirements.txt
 
-
-Run example usage:
-
+💻 Example Usage
 from expert_chainsaw import Task, Chain
 
 # Define tasks
@@ -57,6 +56,16 @@ workflow = Chain([task1, task2, task3])
 # Run the workflow
 workflow.run()
 
+🛠 Advanced Features
+
+Custom Task Hooks – Run pre/post functions on tasks
+
+Retry Mechanism – Automatically retry failed tasks
+
+Logging & Monitoring – Track each step’s performance
+
+Notifications – Send alerts on workflow completion or failure
+
 🤝 Contributing
 
 Contributions are welcome! Improve workflows, add modules, or fix bugs.
@@ -66,3 +75,7 @@ Fork the repo
 Create a branch
 
 Submit a pull request
+
+📄 License
+
+This project is open source. See the LICENSE file for details.
