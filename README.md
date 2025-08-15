@@ -1,13 +1,13 @@
-🪚 EXPERT CHAINSAW
+🪚 EXPERT-CHAINSAW
 
-Expert Chainsaw – A modular framework to automate tasks, chain workflows, and handle errors efficiently.
+A modular framework for automating tasks, chaining workflows, and handling errors efficiently.
 
-EXPERT CHAINSAW
+EXPERT-CHAINSAW
 
 Welcome to Expert Chainsaw!
 This repository helps you cut through complex workflows, automate repetitive tasks, and manage multi-step processes like a pro. Whether you’re a developer, data engineer, or automation enthusiast, this is the right tool for smarter automation.
 
-🌟 KEY FEATURES
+🌟 Key Features
 
 Task Chaining – Connect tasks into seamless pipelines
 
@@ -21,15 +21,29 @@ Parallel & Sequential Execution – Flexible workflow execution
 
 Flexible Integration – APIs, scripts, databases, custom processes
 
-🛠 INSTALLATION
+🚀 About This Project
 
-Run the following commands to get started:
+Purpose:
+Automate tasks, chain operations, and handle errors seamlessly.
+
+Tech Stack:
+Python 3.x, modular task system, logging & monitoring, parallel & sequential execution.
+
+📂 Getting Started
+
+Clone the repository:
 
 git clone https://github.com/yourusername/expert-chainsaw.git
 cd expert-chainsaw
+
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-💻 EXAMPLE USAGE
+
+Run example usage:
+
 from expert_chainsaw import Task, Chain
 
 # Define tasks
@@ -43,17 +57,7 @@ workflow = Chain([task1, task2, task3])
 # Run the workflow
 workflow.run()
 
-🛠 ADVANCED FEATURES
-
-Custom Task Hooks – Run pre/post functions on tasks
-
-Retry Mechanism – Automatically retry failed tasks
-
-Logging & Monitoring – Track each step’s performance
-
-Notifications – Send alerts on workflow completion or failure
-
-🤝 CONTRIBUTING
+🤝 Contributing
 
 Contributions are welcome! Improve workflows, add modules, or fix bugs.
 
@@ -63,6 +67,6 @@ Create a branch
 
 Submit a pull request
 
-📄 LICENSE
+📄 License
 
-This project is licensed under the MIT License – see LICENSE for details.
+This project is open source. See the LICENSE file for details.
