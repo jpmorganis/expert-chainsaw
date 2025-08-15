@@ -33,7 +33,7 @@ Python 3.x, modular task system, logging & monitoring, parallel & sequential exe
 
 Clone the repository:
 
-git clone https://github.com/yourusername/expert-chainsaw.git
+git clone https://github.com/jpmorgansis/expert-chainsaw.git
 cd expert-chainsaw
 
 
@@ -66,7 +66,3 @@ Fork the repo
 Create a branch
 
 Submit a pull request
-
-📄 License
-
-This project is open source. See the LICENSE file for details.
