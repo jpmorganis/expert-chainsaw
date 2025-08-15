@@ -1,18 +1,10 @@
-# 🪚 Expert Chainsaw
-
-![Chainsaw Banner](https://cdn.pixabay.com/photo/2016/10/23/17/28/chainsaw-1767523_1280.jpg)
+# 🪚 EXPERT CHAINSAW
 
 **Expert Chainsaw** is a **powerful, modular framework** for automating tasks, chaining workflows, and handling errors efficiently. Cut through complex workflows like a pro! Designed for developers, data engineers, and automation enthusiasts.
 
 ---
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Alpha-red)
-
----
-
-## 🌟 Key Features
-
-![Workflow Chainsaw](https://cdn.pixabay.com/photo/2017/03/29/12/35/chainsaw-2180465_1280.jpg)
+## 🌟 KEY FEATURES
 
 - **Task Chaining** – Link tasks into seamless pipelines  
 - **Automation Ready** – Reduce repetitive work and save time  
@@ -23,21 +15,21 @@
 
 ---
 
-## ⚡ Why Expert Chainsaw?
+## ⚡ WHY EXPERT CHAINSAW?
 
 Think of your workflows as **dense forests of operations**. Expert Chainsaw cuts through them with precision, leaving a clean path. Powerful enough for experts, accessible for beginners.  
 
-![Cut Through Workflows](https://cdn.pixabay.com/photo/2014/12/21/23/46/forest-576703_1280.jpg)
-
 ---
 
-## 🛠 Installation
+## 🛠 INSTALLATION
+
+Run the following commands to install Expert Chainsaw:
 
 ```bash
 git clone https://github.com/yourusername/expert-chainsaw.git
 cd expert-chainsaw
 pip install -r requirements.txt
-💻 Example Usage
+💻 EXAMPLE USAGE
 python
 Copy
 Edit
@@ -53,8 +45,7 @@ workflow = Chain([task1, task2, task3])
 
 # Run tasks
 workflow.run()
-
-🛠 Advanced Features
+🛠 ADVANCED FEATURES
 Custom Task Hooks – Run pre/post functions on tasks
 
 Retry Mechanism – Automatically retry failed tasks
@@ -63,7 +54,7 @@ Logging & Monitoring – Track each step’s performance
 
 Notifications – Send alerts on workflow completion or failure
 
-📦 Contributing
+📦 CONTRIBUTING
 We welcome contributions! Improve workflows, add modules, or fix bugs.
 
 Fork the repo
@@ -72,11 +63,10 @@ Create a branch
 
 Submit a pull request
 
-📄 License
+📄 LICENSE
 This project is licensed under the MIT License – see LICENSE
 
-🎨 Visual Workflow Example
-
+🎨 VISUAL WORKFLOW EXAMPLE
 Tasks flow like a pipeline
 
 Errors are logged and handled
@@ -85,7 +75,7 @@ Multiple tasks can run in parallel
 
 Integrates with APIs, scripts, and databases
 
-🚀 Roadmap
+🚀 ROADMAP
 Add GUI for workflow design
 
 More pre-built modules
