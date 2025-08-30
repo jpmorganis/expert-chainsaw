@@ -79,3 +79,6 @@ Submit a pull request
 📄 License
 
 This project is open source. See the LICENSE file for details.
+
+Screenshot 
+<img width="518" height="310" alt="image" src="https://github.com/user-attachments/assets/5e7f0b38-791d-4a35-b808-97f91a870f96" />
